@@ -11,4 +11,4 @@ R//
 
 ¿De qué manera el uso de GitHub facilitó el trabajo colaborativo
 en equipo? Den un ejemplo concreto 
-R//
+R//Hice el parcial de forma individual, pero la forma en la que me facilito el usar Github es en el envio de comentarios por tarea o archivo modificado de igulmanera me ayudo a llevar un mejor orde, y incluso pude recuperar un codigo que modifique y luego no pude solucionarlo, asi que en GitHub busque la versión anterior de esa sección de codigo y asi se soluciono.

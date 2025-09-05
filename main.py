@@ -18,7 +18,7 @@ class App:
         self.catalogo = catalogo_por_defecto()
         self.gestor = GestorVentas(self.catalogo)
 
-#Menú unteractivo
+#Menú interactivo
     def ejecutar(self):
         while True:
             self._limpiar()
@@ -48,16 +48,16 @@ class App:
     # ----------------- Menús / Acciones -----------------
 
     def mostrar_catalogo(self):
-        self._limpiar()
+        self._limpiar() #Limpia la pantalla antes de mostrar el catalogo, asi es ams agradable visualmente
         print("=== Catálogo de productos ===")
         print(f"{'COD':<4} {'Producto':<18} {'Precio(USD)':>11} {'Unidad':>8}")
         print("-"*45)
         for cod, p in self.catalogo.items():
             print(f"{cod:<4} {p.nombre:<18} {p.precio:>11.2f} {p.unidad:>8}")
-        pausar()
+        pausar() #Pausa para que el usuario lea el codigo y asi continuar con la operación
 
     def menu_registrar_venta(self):
-        self._limpiar()
+        self._limpiar() 
         print("=== Registrar venta ===")
         vendedor = input("Nombre del vendedor/a: ").strip() or "N/D"
         items: list[tuple[str, float]] = []
