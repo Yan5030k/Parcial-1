@@ -12,3 +12,5 @@ R// se aplicó creando clases como Producto, DetalleVenta, y Venta, que modelan 
 ¿De qué manera el uso de GitHub facilitó el trabajo colaborativo
 en equipo? Den un ejemplo concreto 
 R//Hice el parcial de forma individual, pero la forma en la que me facilito el usar Github es en el envio de comentarios por tarea o archivo modificado de igulmanera me ayudo a llevar un mejor orde, y incluso pude recuperar un codigo que modifique y luego no pude solucionarlo, asi que en GitHub busque la versión anterior de esa sección de codigo y asi se soluciono.
+
+De igual forma, ya tengo experiencia trabajando en GitHub anterior mente en equipo asi que eso me ayuda a tenr un control de verisones entre compañeros de equipo, veo las partes que el hace y luego se junta todo en la rama principal origen/merge para juntar todas las partes del codigo y de esa manera tener el codigo completo y funcional.
