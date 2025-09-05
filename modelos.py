@@ -1,6 +1,9 @@
+#En esta clase sera donde manejaremos lo principal, lo cual es el Producto, detalleventa, y venta
+
 from dataclasses import dataclass
 from typing import List
 
+#Clase de Producto con sus correspectivos campos
 @dataclass
 class Producto:
     codigo: str
@@ -8,7 +11,7 @@ class Producto:
     precio: float #$USD
     unidad: str 
 
-print("Hellow word!")
+#Clase de Detalle ventas que obtiene productos + su precio y todos los detalles de la venta
 @dataclass
 class DetalleVenta:
     producto: Producto
@@ -19,6 +22,7 @@ class DetalleVenta:
         return self.cantidad * self.producto.precio
     
 
+#Clase Venta en esa se ira enlistando para la clase detalle Ventas
 class Venta:
     _contador = 1
 
